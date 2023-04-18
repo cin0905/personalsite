@@ -1,9 +1,9 @@
-h1, h2, h3, p, a, date, figcaption{
+h1, h2, h3, p, a, footer{
     font-family: 'Unbounded', cursive;
     line-height: 1.6em;
 }
 
-header{
+header, h2{
     padding:20px;
 }
 
@@ -49,4 +49,10 @@ img{
 
 figcaption{
     text-align: center;
+}
+
+footer{
+    padding:20px;
+    text-align: center;
+    font-size: larger;
 }
